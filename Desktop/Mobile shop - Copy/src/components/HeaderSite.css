@@ -1,0 +1,33 @@
+header{
+    width: 100%;
+    height: 50px;
+    padding-inline:100px ;
+    overflow: hidden;
+}
+ul,header,.icons{
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;  
+}
+ul{
+    width: 40%;
+}
+
+ul>a>li{
+    display: inline-block;
+    color: black;
+}
+svg{
+    color: black;
+}
+
+select{
+    border: 0;
+    text-align: center;
+}
+.icons{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;    
+}
+

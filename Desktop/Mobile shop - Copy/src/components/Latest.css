@@ -1,0 +1,36 @@
+#items{
+    width: 100%;
+    height: 400px;
+}
+.text-link{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.items{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.item-latest{
+    width: 30%;
+    height: 100%;
+}
+.img-latest{
+    width: 100%;
+    height: 80%;
+    &>img{
+        width: 100%;
+        height: 100%;
+    }
+}
+h5{
+    font-weight: 400;
+}
+p{
+    color: gray;
+    font-size: 10px;
+}

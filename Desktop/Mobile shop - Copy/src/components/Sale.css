@@ -1,0 +1,38 @@
+.sale{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(191, 191, 191);
+    margin-block: 200px;
+    display: flex;
+}
+.text,.sale-img{
+    width: 50%;
+    height: 100%;
+    
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    gap: 20px;
+   &>h1{
+        font-weight: 300;
+   } 
+   &>button{
+    background-color: black;
+    color: white;
+    width: 200px;
+    border-radius: 0;
+    border: 0;
+   }
+}
+.sale-img{
+    display: flex;
+    justify-content: end;
+}
+.sale-img>img{
+    width: 70%;
+    height: 100%;
+}
